@@ -27,7 +27,7 @@ def classify_triangle(a, b, c):
 class TestTriangle(unittest.TestCase):
     def test_right_triangle(self):
         self.assertEqual(classify_triangle(3, 4, 5), "right")  # 3, 4, 5 forms a right triangle
-        # self.assertEqual(classify_triangle(5, 3, 4), "right")  # 5, 3, 4 suppose to form a right triangle as well, function failed to handle this.
+        self.assertEqual(classify_triangle(5, 3, 4), "right")  # 5, 3, 4 suppose to form a right triangle as well, function failed to handle this.
 
     def test_equilateral_isosceles(self):
         self.assertEqual(classify_triangle(5, 5, 5), "equilateral")  # happy path
