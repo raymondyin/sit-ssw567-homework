@@ -1,0 +1,17 @@
+GitHub Link for Homework 01:
+https://github.com/raymondyin/sit-ssw567-homework
+
+
+Describe your experience with this assignment, specifically:
+
+Q: What challenges did you encounter with this assignment, if any? 
+A: Having the assignment files created on my local machine first, and then trying to create a GitHub repo and combine them two.
+
+Q: What did you think about the requirements specification for this assignment?
+A: Pretty clear.
+
+Q: What challenges did you encounter with the tools?
+A: The GitHub isn't very easy to use when I try to create a repo and add existing local files to it.
+
+Q: Describe the criteria you used to determine that you had sufficient test cases, i.e. how did you know you were done?
+A: First, "happy path" (normal case) must be passed. Then, abnormal user inputs need to be tested. Lastly, boundary cases need to be tested as well.
